@@ -2,9 +2,12 @@
 
 <template>
   <div class="app">
-    <Sidebar />
-    <router-view/>
-  </div>
+		<!-- Sidebar -->
+		<Sidebar />
+
+		<!-- Content -->
+		<router-view />
+	</div>
 </template>
 
 <script setup>
